@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "typeRoots": ["types/*"],
+    "typeRoots": ["src/types/*"],
     "target": "esnext",
     "module": "esnext",
     "strict": true,

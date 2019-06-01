@@ -1,6 +1,8 @@
-class App {
+import Components from './components';
+
+class App extends Components {
     public init() {
-        alert('헬로우 타입스크립트!');
+    	this.TodoListRender();
     }
 }
 const app = new App();
