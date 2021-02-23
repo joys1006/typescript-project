@@ -1,8 +1,8 @@
 /**
  * @author Has
  * @reg_date 2018-05-05
- * @summary Comment Api Service
- * @description Comment 관련 Api
+ * @summary Api Service
+ * @description Api Service Class
  */
 
 export class Api {

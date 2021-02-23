@@ -2,16 +2,17 @@ import { date, validator } from '../../utils';
 
 export default class TodoListTemplate {
 	private data:Types.Response.TodoListData[] = [];
-	public page: number = 1;
+	private page: number = 1;
 
 	protected async createHtmlRender(response: Types.Response.TodoListData[]) {
+        // initialize state
 		this.data = response;
+        // methods
 		await this.createTodoListUi();
 		await this.createUiComments();
 	}
 	private createTodoListUi() {
 		const $app: HTMLElement | null = document.getElementById('app');
-		console.log(this.data);
 		const html: string = `
 			<div class="todo-list-widget">
 				<h1>할일 리스트 만들기</h1>
