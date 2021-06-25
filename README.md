@@ -1,4 +1,4 @@
-> Only Typescript Sample code
+> Only Typescript Toy TodoList Sample code
 
 ## Build Setup (npm) (실행 방법)
 
