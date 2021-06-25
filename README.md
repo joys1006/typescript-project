@@ -1,4 +1,4 @@
-> Typescript Sample code
+> Only Typescript Sample code
 
 ## Build Setup (npm) (실행 방법)
 
